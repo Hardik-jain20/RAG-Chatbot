@@ -17,27 +17,27 @@ Built an end-to-end Retrieval-Augmented Generation (RAG) system for semantic doc
 ### Document Ingestion Pipeline
 
 Google Drive Trigger
-↓
+→
 Document Loader
-↓
+→
 Recursive Text Splitter
-↓
+→
 OpenAI Embeddings
-↓
+→
 Pinecone Vector Store
 
 ### Query Pipeline
 
 User Query
-↓
+→
 AI Agent
-↓
+→
 Retriever
-↓
+→
 Conversational Memory
-↓
+→
 OpenRouter LLM
-↓
+→
 Response
 
 ## Workflow Screenshots
